@@ -47,7 +47,7 @@ export const Footer = ({ children }) => {
               />
             </ul>
           </div>
-          <div className="footer__legal">
+          <div className="footer__address">
             <h3>Contact</h3>
             <ContactDetail newClass="footer__contact" />
           </div>

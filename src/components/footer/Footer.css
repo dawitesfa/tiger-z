@@ -30,7 +30,7 @@
 @media (max-width: 600px) {
   .footer__contents {
     gap: 1.6rem;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
