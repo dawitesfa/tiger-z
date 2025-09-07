@@ -1,13 +1,62 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  vertical-align: baseline;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #212529;
+  line-height: 1.7;
+  position: relative;
+}
+
+.section {
+  padding: 6.2rem 0 6.2rem 0;
+  width: 100%;
+}
+
+.section:nth-child(2) {
+  padding-top: 12.4rem !important;
+}
+
+.section__content {
+  margin: 0 auto;
+}
+
+/* .section.height-72 {
+  background-color: #1c1c1c92;
+} */
+
+.section.staggered {
+  background-color: #fdf1e63c;
+}
+
+.section.black {
+  background-color: #495057;
+}
+
+.section .section__title {
+  margin-bottom: 2.4rem;
+  font-size: 2.4rem;
+}
+
+.section .section__description {
+  margin-bottom: 2.4rem;
+  line-height: 1.7;
+  font-size: 1.6rem;
+}
+
+.match-bg {
+  background-color: transparent !important;
 }

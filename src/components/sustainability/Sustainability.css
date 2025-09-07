@@ -1,0 +1,28 @@
+#sustainability {
+  max-width: 85%;
+  scroll-margin-top: 13rem;
+}
+
+.sustainability__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2.4rem;
+}
+
+@media (max-width: 1200px) {
+  #sustainability {
+    max-width: 88%;
+  }
+  .sustainability__cards {
+    gap: 1.6rem;
+  }
+}
+@media (max-width: 600px) {
+  #sustainability {
+    max-width: 90%;
+    scroll-margin-top: 8rem;
+  }
+  .sustainability__cards {
+    display: block;
+  }
+}

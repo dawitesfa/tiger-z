@@ -1,0 +1,10 @@
+.address {
+  font-size: 14px;
+}
+.contact__details {
+  line-height: 1.7;
+}
+
+.footer__contact .contact__details {
+  font-size: 12px;
+}

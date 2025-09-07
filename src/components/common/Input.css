@@ -1,0 +1,27 @@
+.rounded-xl {
+  border-radius: 1.2rem;
+  color: #495057;
+  display: block;
+  font-size: 1.4rem;
+  margin: 2rem auto;
+  padding: 8px 1.2rem;
+  outline: 1px solid #e9ecef;
+  width: 100%;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #dee2e6;
+  font-size: 1.4rem;
+}
+
+.rounded-xl {
+  font-family: "Montserrat", sans-serif;
+}
+
+.rounded-2xl {
+  background-color: #e67700;
+  border-radius: 10rem;
+  color: #fff;
+  padding: 4px 3.2rem;
+}

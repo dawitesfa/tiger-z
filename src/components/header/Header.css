@@ -1,0 +1,123 @@
+#home {
+  height: 8rem;
+  left: 0;
+  padding: 0 4.8rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+@media (max-width: 1200px) {
+  #home {
+    padding: 0 2.4rem;
+  }
+}
+@media (max-width: 600px) {
+  #home {
+    height: 6rem;
+    padding: 0 1.6rem 0 0;
+  }
+}
+
+.active-navbar {
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  backdrop-filter: blur(5px);
+  border-bottom: 1px solid #f1f3f5;
+}
+
+.header__nav-container {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.header__logo:link,
+.header__logo:visited {
+  /* border: 4px solid #e67700; */
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1.15;
+  padding: 4px 1.6rem;
+  text-decoration: none;
+  transition: box-shadow 0.5s;
+}
+.header__logo h1 {
+  font-size: 1.8rem;
+  letter-spacing: -1.5px;
+}
+
+@media (max-width: 1200px) {
+  .header__logo h1 {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 600px) {
+  .header__logo h1 {
+    font-size: 1.4rem;
+  }
+}
+
+.active-navbar .header__logo h1 {
+  color: black;
+  font-size: 2.4rem;
+}
+@media (max-width: 1200px) {
+  .active-navbar .header__logo h1 {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 600px) {
+  .active-navbar .header__logo h1 {
+    font-size: 1.6rem;
+  }
+}
+
+.header__logo span {
+  color: #e67700;
+}
+.header__logo p {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+  .header__logo p {
+    letter-spacing: 1px;
+    font-size: 6px;
+  }
+}
+@media (max-width: 600px) {
+  .header__logo p {
+    letter-spacing: 1px;
+  }
+}
+
+.active-navbar .header__logo p {
+  color: black;
+}
+
+.header__logo h1:after {
+  background-color: #6e6e6e;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+}
+.header__menu {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .header__menu {
+    display: block;
+  }
+}
+
+.header__menu {
+  z-index: 10000;
+}
