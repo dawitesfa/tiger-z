@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tiger-z/static/css/main.73439527.css",
+    "main.css": "/tiger-z/static/css/main.c3ec367c.css",
     "main.js": "/tiger-z/static/js/main.523f44b0.js",
     "index.html": "/tiger-z/index.html",
-    "main.73439527.css.map": "/tiger-z/static/css/main.73439527.css.map",
+    "main.c3ec367c.css.map": "/tiger-z/static/css/main.c3ec367c.css.map",
     "main.523f44b0.js.map": "/tiger-z/static/js/main.523f44b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.73439527.css",
+    "static/css/main.c3ec367c.css",
     "static/js/main.523f44b0.js"
   ]
 }
