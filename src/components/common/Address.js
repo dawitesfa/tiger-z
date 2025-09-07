@@ -15,7 +15,7 @@ export const ContactDetail = ({ newClass }) => {
           <Phone size={14} color="#e67700" />
         </span>
         &nbsp; &nbsp;
-        <span>+260955374523/+260973150037</span>
+        <span>+260955374523/ +260973150037</span>
       </p>
       <p className="contact__details">
         <span>
